@@ -22,7 +22,7 @@ export default function Home() {
           <code className={styles.code}>public/mentee.json</code>
         </p>
 
-        <div>
+        <div className={styles.grid}>
           {MenteeData.data.map((item) => (
             <div className={styles.card} key={item.name}>
               <p>{item.name}</p>
